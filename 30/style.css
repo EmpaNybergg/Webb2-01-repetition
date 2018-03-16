@@ -1,0 +1,31 @@
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    display: inline-block;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+.box1 {
+    background: linear-gradient(white, grey);
+}
+.box2 {
+    background: linear-gradient(grey, white, grey);
+}
+.box3 {
+    background: linear-gradient(to right, grey, white);
+}
+.box4 {
+    background: linear-gradient(white, grey, white);
+}
+.box5 {
+    background: linear-gradient(to top right, red, yellow);
+}
+.box6 {
+    background: linear-gradient(to top left, red, yellow);
+}
+.box7 {
+    background: linear-gradient(
+        to right top,
+        red 50%,
+        yellow 50%
+    );
+}

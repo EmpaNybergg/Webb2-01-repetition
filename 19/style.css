@@ -1,0 +1,7 @@
+div {
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: red;
+	width: 200px;
+    height: 200px; 
+}

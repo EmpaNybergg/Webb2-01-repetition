@@ -1,0 +1,64 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: pink;
+}
+
+:root {
+    --wd: 35rem;
+    --hd: 45rem;
+}
+
+.main {
+    margin: 50px auto 0 auto;
+    position: relative;
+    width: var(--wd);
+    height: var(--hd);
+    
+}
+
+.white {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: var(--wd);
+}
+
+.red {
+    background-color: red;
+    position: absolute;
+    transform: rotate(-20deg);
+    height: 100%;
+    width: 100%;
+}
+.blue {
+    background-color:blue;
+    position: absolute;
+    transform: rotate(190deg);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+h1 {
+    color: blue;
+    font-size: 3.5rem;
+    padding-left: 20px;
+
+}
+p {
+    font-size: 2rem;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+img {
+    width: 50%;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

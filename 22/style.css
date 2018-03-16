@@ -1,0 +1,20 @@
+.gen {
+    float: left;
+    width: 20%;
+    min-height: 100vh;
+}
+.spe1 {
+    background-color: dodgerblue;
+}
+.spe2 {
+    background-color: darksalmon;
+}
+.spe3 {
+    background-color: darkgreen;
+}
+.spe4 {
+    background-color: red;
+}
+.spe5 {
+    background-color: black;
+}
