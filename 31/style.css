@@ -1,0 +1,18 @@
+.box1, .box2, .box3, .box4{
+    display: inline-block;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+.box1 {
+    background: radial-gradient(grey, white);
+}
+.box2 {
+    background: radial-gradient(white 50%, grey);
+}
+.box3 {
+    background: radial-gradient(circle at top right, yellow 4%, red);
+}
+.box4 {
+    background: radial-gradient(circle at bottom right, yellow, red);
+}
