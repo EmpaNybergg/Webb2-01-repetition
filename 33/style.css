@@ -1,35 +1,47 @@
 body {
-	background:grey;
+	background: grey;
 }
+
 .cloud {
-    width: 340px;
-    height: 120px;
+	width: 315px;
+	height: 120px;
 	background: #f2f9fe;
-	background: linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background-image: linear-gradient( #f2f9fe 5%, #4dbef7);
 	border-radius: 100px;
 	position: relative;
 	margin: 140px auto 20px auto;
 }
 
-.cloud:after, .cloud:before {
+.cloud:after,
+.cloud:before {
 	content: '';
 	position: absolute;
-	background: white;
+	background: #f2f9fe;
 	z-index: -1
 }
 
 .cloud:after {
-    width: 100px; 
-    height: 100px;
-    top: -40px; 
-    left: 50px;
+	width: 100px;
+	height: 100px;
+	top: -40px;
+	left: 50px;
 	border-radius: 100px;
 }
+
 .cloud:before {
-    width: 180px;
-    height: 180px;
-    top: -90px;
-    right: 50px;
+	width: 180px;
+	height: 180px;
+	top: -90px;
+	right: 50px;
 	border-radius: 200px;
 }
 
+.shadow {
+	width: 345px;
+	height: 0px;
+	position: relative;
+	top: 150px;
+	-webkit-box-shadow: 1px -1px 50px 5px rgba(0,0,0,1);
+	-moz-box-shadow: 1px -1px 50px 5px rgba(0,0,0,1);
+	box-shadow: 1px -1px 50px 5px rgba(0,0,0,1);
+}
