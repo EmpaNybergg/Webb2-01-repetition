@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        to bottom,
+        blue, 
+        blue 35%, 
+        grey 35%,
+        grey
+    );
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+font-size: 3em;
+height: 100px;
+margin: 0;
+width: 100%;
+
+}
+
+.innerheader, .wrapper {
+    width: 1000px; /* Statiskt... LOL */
+    margin: 0 auto;
+    background-color: #b0b;
+    overflow: hidden;
+}
+
+.diven {
+    clear: both;
+    padding-top: 10px;
+}
+
+.lada1 {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    float: left;
+}
+
+.lada2 {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 200px;
+}
+
+.lada3 {
+    width: 100%;
+    background-color: lawngreen;
+    border: 1px solid black;
+    height: 80px;
+    
+}
